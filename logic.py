@@ -69,7 +69,7 @@ class Operations:
         except:
             return 'List only one number in the numerator and denominator'
         else:
-            return f'{result:.3f}'
+            return round(result, 3)
 
     def triangular(self, n) -> int | str:
         '''
